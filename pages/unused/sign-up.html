@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <title>Sign up for Very Excited!</title>
+    <link rel="icon" href="icon.ico" type="image/x-icon" />
+    <style>
+    body {
+        background-color: rgb(208, 221, 222);
+    }
+    ul {
+        font-family: 'Meiryo', bold;
+        font-style: normal;
+    }
+    </style>
+    <div class="container" style="text-align: center;">
+    <ul>
+      <h1>Create an Account</h1>
+      <p>Please Fill this Form and <a href="verify.html" style="color:rgb(150, 160, 160)">Verify that You are not a Robot</a>.</p>
+      <hr>
+
+      <script>
+        prompt('You have clicked on the sign up button. if you\'re not a robot, Type in the sentence to continue.');
+        let message = 'I am not a robot.';
+      </script>
+  
+      <label for="email"><b>Email:</b></label><br>
+      <input type="text" placeholder="Enter Email" name="email" required><br><br>
+  
+      <label for="psw"><b>Password:</b></label><br>
+      <input type="password" placeholder="Enter Password" name="psw" required><br><br>
+  
+      <label for="psw-repeat"><b>Confirm Password:</b></label><br>
+      <input type="password" placeholder="Confirm Password" name="psw-repeat" required><br><br>
+  
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:2px"> Remember me
+      </label>
+  
+      <p>By creating an account you agree to our <a href="tou.html" style="color:rgb(150, 160, 160)">Terms of Use</a></p>
+
+      <div class="clearfix">
+        <a href="sign-in.html">
+        <button type="button" class="cancelbtn">Cancel</button>
+        <button type="submit" class="signupbtn">Sign Up</button>
+        </a>
+      </div>
+    </div>
+    </ul>
+</form>
